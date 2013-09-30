@@ -1,0 +1,123 @@
+body{
+	background: url(/imagenes/asgard.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#principal{
+	width:800px;
+	height:auto;
+	background: #fcfad5; /* Old browsers */
+	background: -moz-linear-gradient(top, #fcfad5 5%, #f7ab77 32%, #d67353 76%, #2b2c2e 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#fcfad5), color-stop(32%,#f7ab77), color-stop(76%,#d67353), color-stop(99%,#2b2c2e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fcfad5 5%,#f7ab77 32%,#d67353 76%,#2b2c2e 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fcfad5 5%,#f7ab77 32%,#d67353 76%,#2b2c2e 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #fcfad5 5%,#f7ab77 32%,#d67353 76%,#2b2c2e 99%); /* IE10+ */
+	background: linear-gradient(to bottom, #fcfad5 5%,#f7ab77 32%,#d67353 76%,#2b2c2e 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfad5', endColorstr='#2b2c2e',GradientType=0 ); /* IE6-9 */	margin: auto;
+	box-shadow: 1px 3px 5px black;
+}
+
+#recursos{
+	width: 80%;
+	height: 10%;
+	margin: auto;
+}
+
+#menu{
+	width: 25%;
+	height:63.9%;
+	float:left;
+	text-align: center;
+	padding-top: 15%;
+}
+
+#central{
+	width:75%;
+	height:80%;
+	float:right;
+}
+
+#pie{
+	width: 100%;
+	height: 10%;
+}
+
+#dinero{
+	width: 15%;
+	height: auto;
+	background-color: white;
+	color: black;
+	margin-left: 10%;
+	float: left;
+	text-align: center;
+}
+
+#nivel{
+	width: 15%;
+	height: auto;
+	background-color: white;
+	color: black;
+	margin-left: 18%;
+	float: left;
+	text-align: center;
+}
+
+#exp{
+	width: 15%;
+	height: auto;
+	background-color: white;
+	color: black;
+	margin-left: 18%;
+	float: left;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+}
+
+a:hover{
+	color: black;
+}
+
+#contenido{
+	width: 95%;
+	height: auto;
+	min-height: 100%;
+	background-color: #222222;
+}
+
+#imgPrincipal{
+	width: 100%;
+	height: 50%;
+}
+
+#misiones{
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	background-color: red;
+}
+
+.misiones{
+	width: 100%;
+	text-align: center;
+}
+
+.misiones th{
+	font-size: 20px;
+}
+
+.img{
+	width: 100%;
+	height: 100%;
+}
+
+table td{
+	text-align: center;
+}
